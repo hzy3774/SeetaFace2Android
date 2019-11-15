@@ -1,9 +1,12 @@
 # SeetaFace2Android
-To make SeetaFace2 easy to use on Android.
+To make face and landmarks detection easy on Android based on SeetaFace2.
 
 ### Details
+SeetaFace2人脸识别引擎包括了搭建一套自动人脸识别系统所需的模块，该工程只是将其简单封装并对接Bitmap接口，
+使Android开发时可以快速接入。
+
 #### Screenshot
-|  Face Detection | Blur |
+|  Face Detection | Face Landmarks |
 | ------------ | -------------- |
 |![pic](https://github.com/hzy3774/SeetaFace2Android/blob/master/misc/demo1.png?raw=true)|![pic](https://github.com/hzy3774/SeetaFace2Android/blob/master/misc/demo2.png?raw=true)|
 
@@ -14,7 +17,7 @@ To make SeetaFace2 easy to use on Android.
 * for more information: https://github.com/seetafaceengine/SeetaFace2
 
 #### 下载Demo体验
-下载Demo体验[下载地址](https://github.com/huzongyao/SeetaFace2Android/releases/latest)
+下载Demo体验[下载地址](https://github.com/hzy3774/SeetaFace2Android/releases/latest)
 
 #### Dependencies
 ``` gradle
