@@ -2,8 +2,19 @@
 To make face and landmarks detection easy on Android based on SeetaFace2.
 
 ### Details
-SeetaFace2人脸识别引擎包括了搭建一套自动人脸识别系统所需的模块，该工程只是将其简单封装并对接Bitmap接口，
+SeetaFace2可以快速实现人脸识别和人脸关键点检测，该工程只是将其简单封装并对接Bitmap接口，
 使Android开发时可以快速接入。
+
+#### Dependencies
+* 只需要人脸检测，无需关键点识别(模型文件1.65MB)
+``` gradle
+implementation 'com.hzy.face:seeta2:1.0.0'
+```
+
+* 人脸识别和关键点检测(模型文件4.5MB)
+``` gradle
+implementation 'com.hzy.face:seeta2mark:1.0.0'
+```
 
 #### Screenshot
 |  Face Detection | Face Landmarks |
@@ -18,15 +29,6 @@ SeetaFace2人脸识别引擎包括了搭建一套自动人脸识别系统所需�
 
 #### 下载Demo体验
 下载Demo体验[下载地址](https://github.com/hzy3774/SeetaFace2Android/releases/latest)
-
-#### Dependencies
-``` gradle
-// face detect only(模型文件1.65MB)
-implementation 'com.hzy.face:seeta2:1.0.0'
-
-// face detect and 81 landmarks(模型文件4.5MB)
-implementation 'com.hzy.face:seeta2mark:1.0.0'
-```
 
 #### Easy Java Api
 ``` java

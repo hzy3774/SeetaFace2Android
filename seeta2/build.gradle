@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+//apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 29
@@ -17,8 +18,21 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
         sourceCompatibility JavaVersion.VERSION_1_8
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
+
+
+//publish {
+//    userOrg = 'huzongyao'
+//    groupId = 'com.hzy.face'
+//    artifactId = 'seeta2mark'
+//    publishVersion = '1.0.0'
+//    desc = 'To make face and landmarks detection easy on Android based on SeetaFace2'
+//    website = 'https://github.com/hzy3774/SeetaFace2Android'
+//}
