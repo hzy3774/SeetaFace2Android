@@ -6,15 +6,19 @@ SeetaFace2可以快速实现人脸识别和人脸关键点检测，该工程只�
 使Android开发时可以快速接入。
 
 #### Dependencies
-* 只需要人脸检测，无需关键点识别(模型文件1.65MB)
+* 只需要人脸检测(含人脸检测模型1.65MB)
 ``` gradle
 implementation 'com.hzy.face:seeta2:1.0.0'
 ```
 
-* 人脸识别和关键点检测(模型文件4.5MB)
+* 人脸识别和关键点检测(含人脸检测和81关键点模型4.5MB)
 ``` gradle
 implementation 'com.hzy.face:seeta2mark:1.0.0'
 ```
+
+* 也可以手动下载Model, 存放在/assets/seeta目录下：
+1. 人脸检测模型：[点击下载](https://github.com/hzy3774/SeetaFace2Android/releases/download/v1.0.0/fd_2_00.dat.gz)
+2. 人脸关键点模型：[点击下载](https://github.com/hzy3774/SeetaFace2Android/releases/download/v1.0.0/pd_2_00_pts81.dat.gz)
 
 #### Screenshot
 |  Face Detection | Face Landmarks |

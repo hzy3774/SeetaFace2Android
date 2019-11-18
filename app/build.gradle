@@ -51,6 +51,7 @@ dependencies {
     implementation 'com.blankj:utilcode:1.25.9'
     implementation 'com.google.android.material:material:1.0.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
-    //implementation 'com.hzy.face:seeta2:1.0.0'
-    implementation project(path: ':seeta2')
+    implementation 'com.hzy.face:seeta2:1.0.0'
+    //implementation 'com.hzy.face:seeta2mark:1.0.0'
+    //implementation project(path: ':seeta2')
 }

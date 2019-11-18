@@ -33,6 +33,6 @@ dependencies {
 //    groupId = 'com.hzy.face'
 //    artifactId = 'seeta2mark'
 //    publishVersion = '1.0.0'
-//    desc = 'To make face and landmarks detection easy on Android based on SeetaFace2'
+//    desc = 'SeetaFace2 full pack'
 //    website = 'https://github.com/hzy3774/SeetaFace2Android'
 //}
